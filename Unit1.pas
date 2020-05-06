@@ -4,10 +4,16 @@ interface
 
 uses
   System.SysUtils, System.Classes, JS, Web, WEBLib.Graphics, WEBLib.Controls,
-  WEBLib.Forms, WEBLib.Dialogs;
+  WEBLib.Forms, WEBLib.Dialogs, WEBLib.StdCtrls;
 
 type
   TForm1 = class(TWebForm)
+    UsernameInput: TWebEdit;
+    PasswordInput: TWebEdit;
+    Password: TWebLabel;
+    Username: TWebLabel;
+    Login: TWebButton;
+    procedure PasswordClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -21,4 +27,6 @@ implementation
 
 {$R *.dfm}
 
-end.
+
+
+end.   
