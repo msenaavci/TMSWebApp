@@ -1,0 +1,1 @@
+"$1/resources/compilers/tms/Linux64/TMSWebCompiler" -ParseDprojFile -MapFileAbsolutePath -NoCodeModification $6 -NoXSSIProtection -CompilerBin "$1/resources/compilers/tms/Linux64/libpas2js.so" -ProjectFile "$3" -vsctoolsoptionsjson "$5"
