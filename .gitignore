@@ -3,10 +3,12 @@
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
+!.vscode/tempsettings.json
 !.vscode/tasks.json
 !.vscode/launch.json
-!.vscode/extensions.json
+!.vscode/build.bat
+!.vscode/buildlinux.sh
+!.vscode/build.sh
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
