@@ -30710,7 +30710,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.FFont.SetStyle({});
         this.SetFormContainer("body");
         this.SetFormStyle(pas["WEBLib.Forms"].TFormStyle.fsNormal);
-        this.SetHeight(486);
+        this.SetHeight(492);
         this.SetLeft(0);
         this.SetTabOrder(0);
         this.SetTop(0);
@@ -30735,6 +30735,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.UsernameInput.SetHideSelection(false);
         this.UsernameInput.SetLeft(251);
         this.UsernameInput.SetMaxLength(0);
+        this.UsernameInput.SetParentFont(false);
         this.UsernameInput.SetRequired(false);
         this.UsernameInput.SetShowFocus(true);
         this.UsernameInput.SetTabOrder(0);
@@ -30761,6 +30762,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.PasswordInput.SetHideSelection(false);
         this.PasswordInput.SetLeft(251);
         this.PasswordInput.SetMaxLength(0);
+        this.PasswordInput.SetParentFont(false);
         this.PasswordInput.SetRequired(false);
         this.PasswordInput.SetShowFocus(true);
         this.PasswordInput.SetTabOrder(0);
@@ -30779,7 +30781,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.Password.FFont.SetStyle({});
         this.Password.SetHeight(15);
         this.Password.SetLeft(252);
-        this.SetEvent(this.Password,this,"OnClick","PasswordClick");
+        this.Password.SetParentFont(false);
         this.Password.FTextDirection = pas["WEBLib.Controls"].TTextDirection.tdDefault;
         this.Password.SetTop(181);
         this.Password.SetWidth(59);
@@ -30795,7 +30797,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.Username.FFont.SetStyle({});
         this.Username.SetHeight(16);
         this.Username.SetLeft(251);
-        this.SetEvent(this.Username,this,"OnClick","WebLabel2Click");
+        this.Username.SetParentFont(false);
         this.Username.FTextDirection = pas["WEBLib.Controls"].TTextDirection.tdDefault;
         this.Username.SetTop(132);
         this.Username.SetWidth(64);
@@ -30812,6 +30814,7 @@ rtl.module("Unit1",["System","SysUtils","Classes","JS","Web","WEBLib.Graphics","
         this.Login.FFont.SetStyle({});
         this.Login.SetHeight(24);
         this.Login.SetLeft(331);
+        this.Login.SetParentFont(false);
         this.Login.SetRole("button");
         this.Login.SetTabOrder(0);
         this.Login.FTextDirection = pas["WEBLib.Controls"].TTextDirection.tdDefault;

@@ -9,7 +9,7 @@ object Form1: TForm1
   Font.Style = []
   FormContainer = 'body'
   FormStyle = fsNormal
-  Height = 486
+  Height = 492
   Left = 0
   TabOrder = 0
   Top = 0
@@ -33,6 +33,7 @@ object Form1: TForm1
     HideSelection = False
     Left = 251
     MaxLength = 0
+    ParentFont = False
     Required = False
     ShowFocus = True
     TabOrder = 0
@@ -59,6 +60,7 @@ object Form1: TForm1
     HideSelection = False
     Left = 251
     MaxLength = 0
+    ParentFont = False
     Required = False
     ShowFocus = True
     TabOrder = 0
@@ -77,6 +79,7 @@ object Form1: TForm1
     Font.Style = []
     Height = 15
     Left = 252
+    ParentFont = False
     TextDirection = tdDefault
     Top = 181
     Width = 59
@@ -92,6 +95,7 @@ object Form1: TForm1
     Font.Style = []
     Height = 16
     Left = 251
+    ParentFont = False
     TextDirection = tdDefault
     Top = 132
     Width = 64
@@ -108,6 +112,7 @@ object Form1: TForm1
     Font.Style = []
     Height = 24
     Left = 331
+    ParentFont = False
     Role = 'button'
     TabOrder = 0
     TextDirection = tdDefault

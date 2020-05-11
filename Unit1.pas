@@ -13,7 +13,6 @@ type
     Password: TWebLabel;
     Username: TWebLabel;
     Login: TWebButton;
-    procedure PasswordClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,4 +28,5 @@ implementation
 
 
 
-end.   
+
+end.     
